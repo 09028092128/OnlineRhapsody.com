@@ -1,0 +1,85 @@
+
+<html>
+<head>
+    <title>Narbar icon</title>
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+
+<style>
+    .narbar {
+        background-color: #46acc2;
+        display: flex;
+        padding: 16px;
+        font-family: sans-serif;
+        color: white;
+    }
+    .narbar__limk {
+        padding-right: 8px;
+    }
+    .narbar__items {
+        display: flex;
+    }
+    .narbar__items--right {
+        margin-left: auto;
+    }
+    .narbar__limk--toggle {
+        display: none;
+    }
+    @media only screen and (max-width:768px) {
+    .narbar__items,
+    .nabar (
+        flex-direction: column;
+    )
+    .navbar__items (
+        display: none;
+    )
+    .narbar__items--right {
+        margin-left: 0;
+    }
+    .narbar__limk-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
+ }
+</style>
+</head>
+<body>
+<div class="Narbar__link navbar__link-brand">
+    website title
+</div>
+<div class="narbar__link navbar__link-toggle">
+    <i class="fas fa-bars"></i>
+</div>
+<nav class="narbar__items">
+    <div class="Narbar__link">
+        longer link
+    </div>
+    <div class="Narbar__link">
+        longer link
+    </div>
+    <div class="Narbar__link">
+         link
+    </div>
+</nav>
+<nar class="narbar__item narbar__item--right">
+    <div class="narbar__link">
+        link
+    </div>
+    <div class="narbar__link">
+        link
+    </div>
+</nar>
+</div>
+</body>
+</html>
+<script>
+    function classToggle() {
+        const navs = Document.Queryselectorall(".narbar__items")
+
+        navs.foreach(nav =>  nav.classlist.toggle('Navbar__Toggleshow'));
+    }
+    document.Queryselector('.navbar__link-toggle')
+    .addEventlistener('click', classToggle);
+</script>
+ 

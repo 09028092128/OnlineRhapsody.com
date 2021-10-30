@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        
+        /*assign full width inputs*/
+        input[type=text] ,
+        input[type=password], input[type=Email/username] {
+           width: 50%;
+           padding: 12px 20px;  
+           margin: 8px 0;
+           display: block;
+           border: 1px solid #ccc;
+           box-sizing: border-box;
+        }
+
+       /* Add a background color when the inputs get focus */
+         input[type=text]:focus, 
+         input[type=password]:focus, input[type=Email/Username]:focus, { 
+         background-color: #ddd;
+           outline: none;
+        }
+        /*set a style for Login*/
+        Login {
+            width: 300%;
+            padding: 18px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            opacity: 0.85;
+            display: inline-block;
+            font-size: 13px;
+            line-height: 15px;
+            text-decoration: none;
+           /* remove underline from anchors */
+        }
+        
+        /*add appropriate colors to Login buttons */
+        .lg {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+
+        /* set a hover effect for the button*/
+        button:hover {
+            opacity: 0.8;
+        }
+
+        /*centre the display image inside the container*/
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+        }
+
+        /*set image properties*/
+        img.loveworld {
+            width: 40%;
+            border-radius: 50%;
+        }
+
+        /*set padding to the container*/
+        .centainer {
+            padding: 16px;
+        }
+
+        /*set the forgot password text*/
+        span.psw {
+            float: left;
+            padding-top: 16px;
+        }
+
+        /*set the Modal background*/
+        .modal-content {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+            padding-top: 60px;
+        }
+
+        .close: hover
+        /.close: focus {
+            color: red;
+            cursor: pointer;
+        }
+        /* add Zoom animation*/
+        .animate {
+            -webkit-animation: animatezoom 0.6s;
+            animation: animatezoom 0.6s
+        }
+
+        @-webkit-keyframes animatezoom {
+            from {
+                -webkit-transform: scale(0)
+            }
+            to { 
+                -webkit-transform: scale(1);
+            }
+        }
+
+        @keyframes animatezoom {
+            form{
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        /* style input and link buttons */
+        input,
+        .btn {
+            width: 50%;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            margin: 5px 0;
+            opacity: 0.85;
+            display: inline-block;
+            font-size: 13px;
+            line-height: 15px;
+            text-decoration: none;
+           /* remove underline from anchors */
+        }
+
+        input:hover,
+        .btn:hover {
+            opacity: 1;
+        }
+
+        /*add appropriate colors to fb, twitter and google buttons */
+        .fb {
+            background-color: #3B5998;
+            color: white;
+        }
+
+        .twitter {
+            background-color: #55ACEE;
+            color: white;
+        }
+
+        .google {
+            background-color: #dd4b39;
+            color: white;
+        }
+
+    </style>
+
+    <body>
+
+        <img src="loveworld.png"
+        alt="loveworld view"
+        style="width: 150px; height: 65px;">
+
+        <h2>Login</h2>
+        <!--step 1 : Adding HTML-->
+            
+        <!-- Modal content -->
+          <form action="/action_page.php"></form>
+            <div class="imgcontainer">
+              <img src=img_RhapsodyofRealities.png"
+         alt="Rhapsodyofrealities" class= "RhapsodyofRealities">
+            </div>
+
+            <p><input class="form-
+                control"placeholder=" username/Email" name="username/Email"  type="username/Email" autofocus>
+                         </div></p>
+                         <p><input class="form-
+                            control"placeholder=" password" name="password"  type=" password" autofocus>
+                                     </div></p>
+ 
+          <div><center>
+          <a href="onlineRhapsody.html.html" class="lg btn">
+              <i class="fa fa-login fa-fw"></i>login
+          </a></center>
+          </div>
+          
+          <div class="container" style="background-color: #f1f1f1">
+            <span class="psw">Forget <a href="forgottenpassword.html.html">password?</a></span>
+          </div>      
+                
+                
+            
+                <h3 style="text-align:center"> Also Login with social media or manually</h3>
+                
+
+                <div class="col">
+                    <a href="https://www.facebook.com" class="fb btn">
+                       <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                    </a> 
+                    <a href="https://www.twitter.com"
+                       class="twitter btn">
+                           <i class="fa fa-twitter fa-fw"></i>login with twitter
+                    </a>
+                    <a href="https://www.GMAIL.com" class="google btn">
+                        <i class="fa fa-google fa-fw"></i> Login with Google+
+                    </a>
+                </div>
+
+                
+        </form>
+       </div>
+    </body>
+    
+ </html>
